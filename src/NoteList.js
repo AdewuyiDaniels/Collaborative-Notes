@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import NoteEditForm from './NoteEditForm';
 
-const NoteList = ({ notes, onEditNote }) => {
+const NoteList = ({ notes, onEditNote, onDeleteNote }) => {
   const [editingNote, setEditingNote] = useState(null);
 
   const handleEditClick = (note) => {
@@ -16,6 +16,11 @@ const NoteList = ({ notes, onEditNote }) => {
     setEditingNote(null);
   };
 
+  const handleDeleteClick = (noteId) => {
+    // Call the onDeleteNote function passed from the parent component
+    onDeleteNote(noteId);
+  };
+
   return (
     <div>
       <h2>Notes</h2>
@@ -27,7 +32,12 @@ const NoteList = ({ notes, onEditNote }) => {
             {editingNote === note ? (
               <NoteEditForm note={note} onSaveEdit={handleSaveEdit} />
             ) : (
-              <button onClick={() => handleEditClick(note)}>Edit</button>
+              <>
+                <button onClick={() => handleEditClick(note)}>Edit</button>
+                <button onClick={() => handleDeleteClick(note.id)}>
+                  Delete
+                </button>
+              </>
             )}
           </li>
         ))}

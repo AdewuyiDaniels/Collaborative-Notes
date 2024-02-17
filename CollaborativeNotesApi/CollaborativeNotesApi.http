@@ -1,0 +1,6 @@
+@CollaborativeNotesApi_HostAddress = http://localhost:5181
+
+GET {{CollaborativeNotesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
