@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj": {}
+    "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\collaborative-notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj": {
+    "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\collaborative-notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj",
+        "projectUniqueName": "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\collaborative-notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj",
         "projectName": "CollaborativeNotesApi",
-        "projectPath": "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj",
+        "projectPath": "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\collaborative-notes\\CollaborativeNotesApi\\CollaborativeNotesApi.csproj",
         "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\CollaborativeNotesApi\\obj\\",
+        "outputPath": "C:\\Users\\USER PC\\Projects\\Collaborative Notes\\collaborative-notes\\CollaborativeNotesApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

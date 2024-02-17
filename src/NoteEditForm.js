@@ -22,14 +22,18 @@ const NoteEditForm = ({ note, onSaveEdit }) => {
   };
 
   return (
-    <div>
+    <div className='card'>
       <h2>Edit Note</h2>
       <form>
         <label>Title:</label>
         <input type="text" value={editedTitle} onChange={handleTitleChange} />
         <br />
+        <br />
+        <br />
         <label>Content:</label>
         <textarea value={editedContent} onChange={handleContentChange} />
+        <br />
+        <br />
         <br />
         <button type="button" onClick={handleSaveEdit}>
           Save Edit
