@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CollaborativeNotesApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28a19de50cf84abf24e9a426c4b83603c6aced32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eafa62c215ba68d8afd16f72a605d0ec073ac807")]
 [assembly: System.Reflection.AssemblyProductAttribute("CollaborativeNotesApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CollaborativeNotesApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
