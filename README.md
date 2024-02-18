@@ -4,21 +4,24 @@ The Collaborative Notes App is a web application designed to facilitate collabor
 
 ## Project Structure
 Frontend (React)
-Project Initialization:
+
+### Project Initialization:
 Create a new React app using the create-react-app command.
 Navigate to the project directory.
 bash
 Copy code
 npx create-react-app collaborative-notes
 cd collaborative-notes
-Version Control Setup:
+
+### Version Control Setup:
 Initialize a Git repository and make an initial commit.
 bash
 Copy code
 git init
 git add .
 git commit -m "Initial commit"
-Frontend Development:
+
+### Frontend Development:
 
 Implement the frontend components using React.
 Set up the project structure with components for note creation, listing, and editing.
@@ -40,49 +43,50 @@ Commit changes regularly to the Git repository.
 Push changes to a remote repository (e.g., GitHub) for collaboration.
 
 ## Backend (.NET and SQL Server)
-.NET Backend Setup:
+### .NET Backend Setup:
 Use the .NET CLI to create a new web API project.
 bash
 Copy code
 dotnet new webapi -n CollaborativeNotesApi
-Database Setup:
+### Database Setup:
 
 Set up a SQL Server database for storing notes data.
-Entity Framework Integration:
+### Entity Framework Integration:
 
 Integrate Entity Framework to interact with the SQL Server database.
-API Endpoints:
+### API Endpoints:
 
 Define API endpoints in the .NET backend for CRUD operations on notes.
-Run .NET Backend:
+### Run .NET Backend:
 
 Start the .NET backend server.
-bash
-Copy code
-dotnet run
-Collaboration
+
+## Collaboration
 The collaboration between frontend and backend developers involves:
 
-Version Control:
+## Version Control:
 
 Use Git for version control to track changes and collaborate effectively.
 Collaborators push and pull changes from a shared repository.
-Communication:
+
+## Communication:
 
 Maintain open communication to discuss project requirements, issues, and progress.
 Utilize collaboration platforms (e.g., Slack, Microsoft Teams) for efficient communication.
-Collaborative Coding:
+
+## Collaborative Coding:
 
 Work collaboratively on different aspects of the project.
 Address any conflicts that may arise during code integration.
-Future Steps
-User Authentication:
+
+## Future Steps
+### User Authentication:
 
 Implement user authentication for secure note-taking and access control.
-Database Integration:
+### Database Integration:
 
 Enhance database integration with the SQL Server database.
-Deployment:
+### Deployment:
 
 Deploy the application to a cloud platform (e.g., AWS, Azure, Google Cloud) for public access.
 Conclusion
